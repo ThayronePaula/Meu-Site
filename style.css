@@ -30,7 +30,6 @@ header{
 .menu{
 	list-style: none;
 	float: right;
-	display: inline-block;
 }
 .menu li{
 	font-weight: 300;
@@ -210,7 +209,6 @@ footer .rodape .logo{
 }
 
 }
-
 
 
 
