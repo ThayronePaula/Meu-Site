@@ -1,0 +1,368 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+	font-family: "Open Sans", "sans-serif";
+}
+.clear{
+	clear: both;
+}
+header{
+	background: url("./imagem/fundo.jpg") center/cover no-repeat;
+	max-width: 100%;
+	height: 500px;
+}
+.logo{
+	float: left;
+	margin-left: 100px;
+}
+
+.logo h1{
+	text-align:center;
+	color: black;
+}
+.logo h1:hover{
+	cursor: pointer;
+	transition: 0.2s;
+	color: #032e3f;
+}
+
+.menu{
+	list-style: none;
+	float: right;
+	display: inline-block;
+}
+.menu li{
+	font-weight: 300;
+	margin-right:20px;
+	float: left;
+	font-size: 24px;
+}
+.menu li:hover{
+	transition: 0.3s;
+	color: white;
+	cursor: pointer;
+}
+main{
+	background: url("./imagem/fundo3.jpg") center/cover no-repeat;
+	clear: both;
+}
+.sessao1{
+	max-width: 70%;
+	background-image: linear-gradient(to bottom right,#4e626d,white);
+	height: 600px;
+	margin: auto;	
+}
+.sessao1 h1{
+	text-align: center;
+	margin-top: -20px;
+	font-size: 36px;
+	color: white;
+	font-family: "Play", "sans-serif";
+
+}
+.sessao1 .lado1{
+	width: 50%;
+	float: left;
+}
+.lado1 ul{
+	list-style: square;
+}
+.sessao1 li{
+	line-height: 35px;
+	color: #ccc;
+	width: 100%;
+	height: 50%;
+	font-size: 16px;;
+	font-weight: 700;
+}
+.sessao1 .lado1 li:hover{
+	width: 100%;
+	cursor: pointer;
+	font-size: 20px;
+	color: black;
+	font-weight: 700;
+	transition: 1s;
+}
+.sessao1 .perfil{
+	float: right;
+}
+.sessao1 img{
+	width: 220px;
+	height: 290px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.sessao2{
+	background:url("./imagem/fundo2.jpg") center/contain;
+	width: 100%;
+	height: 500px;
+}
+.sessao2 .center h1{
+	color: white;
+	margin: auto;
+	width: 30%;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 40px;
+	font-family: "Arial","sans-serif";
+	height: 50px;
+	margin-top: 20px;
+}
+.sessao2 .center{
+	margin: auto;
+	width: 80%;
+	height: 300px;
+	text-align: center;
+}
+.center form input{
+	margin-top: 20px;
+	width: 48%;
+	padding: 20px;
+	border:0;
+}
+.center form textarea{
+	width: 48%;
+	padding: 20px;
+	margin-top: 10px;
+	border:0;
+}
+.center form .submit{
+	width: 25%;
+	display: block;
+	margin: auto;
+	padding: 20px;
+	background-color: blue;
+	border: 0;
+	font-size: 16px;
+	color: white;
+}
+.center form .submit:hover{
+	background-color: #4242ff;
+	transition: 0.3s;
+
+}
+.center form input:hover{
+	width: 50%;
+	transition: 1s;
+}
+
+footer .rodape{
+	width: 100%;
+	background-color: #ccc;
+	height: 100%;
+}
+footer .rodape .logo{
+	margin-left: 10px;
+}
+.rodape .redes{
+	float: right;
+}
+.redes a{
+	float: left;
+	margin-right: 90px;
+	text-decoration: none;
+}
+#facebook{
+	list-style-image: url("./imagem/face.png");
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}	
+#insta{
+	list-style-image: url("./imagem/insta.png");
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+#mail{
+	list-style-image: url("./imagem/gmail.png");
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+#git{
+	list-style-image: url("./imagem/github.png");
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+#linkedin{
+	list-style-image: url("./imagem/linkedin.png");
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+
+@media screen and (max-width: 1200px){
+footer .rodape .logo{
+	float: none;
+	margin: 0;
+	background-color: white;
+}	
+.rodape .redes{
+	float: none;
+	width: 100%;
+}
+.redes a{
+	width: 20%;
+
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+header .logo{
+	margin-left: 10px;
+}
+
+nav .menu li{
+	font-weight: 700;
+	color: white;
+	font-size: 24px;
+}
+
+nav .menu li:hover{
+	color: black;
+}
+
+.sessao1{
+	max-width: 100%;
+}
+
+.sessao1 li{
+	color: black;
+	font-size: 20px;
+}
+
+.sessao2 .center{
+	width: 100%;
+	height: 300px;
+}
+
+
+.sessao2 .center h1{
+	padding:0;
+	margin-top: 0;
+}
+
+.center form input{
+	width: 70%;
+}
+
+.center form input:hover{
+	width: 75%;
+	transition: 1s;
+}
+
+.center form textarea{
+	width: 70%;
+
+}
+.center form .submit{
+	margin-top: 10px;
+	width: 50%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+header .logo{
+	width: 100%;
+	margin: auto;
+}
+header .logo h1{
+	color: white;
+}
+nav{
+	background-color: rgba(4,41,57,0.3);
+}
+.menu{
+	width: 100%;
+	float: none;
+	padding: 0;
+}
+.menu li{
+	border-bottom: 2px solid white;
+	text-align: center;
+	margin: auto;
+	float: none;
+	width: 50%;
+
+}
+
+.sessao1{
+	height: 900px;
+}
+.sessao1 .lado1, .perfil{
+	width: 100%;
+	float: none;
+}
+.sessao1 .perfil img{
+	position: relative;
+	left: 50%;
+	margin-top: 200px;
+	transform: translate(-50%,-50%);
+}
+.sessao1 li{
+	color: black;
+	font-size: 20px;;
+	font-weight: 700;
+}
+
+.sessao2 .center h1{
+	width: 80%;
+	padding: 10px;
+	
+}
+.center form input{
+	width: 85%;
+}
+
+.center form input:hover{
+	width: 90%;
+	transition: 1s;
+}
+
+.center form textarea{
+	width: 85%;
+
+}
+
+
+.rodape .redes{
+	float: none;
+	width: 100%;
+}
+.redes a{
+	width: 100%;
+	margin: auto;
+}
+.redes a li{
+	width: 20%;
+	margin: auto;
+	margin-bottom: 15px;
+}
+}
+
+
+
+
