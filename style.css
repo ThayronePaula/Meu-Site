@@ -1,6 +1,8 @@
-body{
+*{
 	margin: 0;
 	padding: 0;
+}
+body{
 	font-family: "Open Sans", "sans-serif";
 }
 .clear{
@@ -30,10 +32,15 @@ header{
 	list-style: none;
 	float: right;
 }
-.menu li{
+.menu a{
+	float: left;
+	text-decoration: none;
+}
+
+.menu a li{
 	font-weight: 300;
 	margin-right:20px;
-	float: left;
+	color: black;
 	font-size: 24px;
 }
 .menu li:hover{
@@ -53,7 +60,7 @@ main{
 }
 .sessao1 h1{
 	text-align: center;
-	margin-top: -20px;
+	margin-bottom: 40px;
 	font-size: 36px;
 	color: white;
 	font-family: "Play", "sans-serif";
@@ -67,17 +74,19 @@ main{
 	list-style: square;
 }
 .sessao1 li{
+	margin-left: 40px;
 	line-height: 35px;
 	color: #ccc;
-	width: 100%;
+	width: 90%;
 	height: 50%;
-	font-size: 16px;;
+	font-size: 22px;;
 	font-weight: 700;
+	margin-bottom: 20px;
 }
 .sessao1 .lado1 li:hover{
-	width: 100%;
+	width: 95%;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	font-weight: 700;
 	transition: 1s;
@@ -87,7 +96,6 @@ main{
 }
 .sessao1 img{
 	width: 220px;
-	height: 290px;
 	margin-right: 20px;
 	border-radius: 10px;
 }
@@ -145,6 +153,7 @@ main{
 }
 
 footer .rodape{
+	margin-top: 10px;
 	width: 100%;
 	background-color: #ccc;
 	height: 100%;
@@ -197,14 +206,16 @@ footer .rodape .logo{
 	float: none;
 	margin: 0;
 	background-color: white;
+	margin-bottom: 30px;
 }	
 .rodape .redes{
 	float: none;
 	width: 100%;
 }
 .redes a{
-	width: 20%;
-
+	margin-bottom: 30px;
+	width: 10%;
+	padding-left: 40px;
 }
 
 }
@@ -213,7 +224,7 @@ footer .rodape .logo{
 
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 720px){
 header .logo{
 	margin-left: 10px;
 }
@@ -221,11 +232,13 @@ header .logo{
 nav .menu li{
 	font-weight: 700;
 	color: white;
-	font-size: 24px;
+	font-size: 25px;
+	
 }
 
 nav .menu li:hover{
 	color: black;
+	
 }
 
 .sessao1{
@@ -234,7 +247,8 @@ nav .menu li:hover{
 
 .sessao1 li{
 	color: black;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 25px;
 }
 
 .sessao2 .center{
@@ -288,22 +302,29 @@ header .logo{
 }
 header .logo h1{
 	color: white;
+	margin-bottom: 20px;
 }
 nav{
 	background-color: rgba(4,41,57,0.3);
+	height: 290px;
 }
 .menu{
+	
 	width: 100%;
 	float: none;
 	padding: 0;
 }
-.menu li{
-	border-bottom: 2px solid white;
+.menu a{
+	margin-bottom: 500px;
 	text-align: center;
 	margin: auto;
 	float: none;
+}
+.menu a li{
+	padding-top: 20px;
+	margin:auto;
 	width: 50%;
-
+	border-bottom: 2px solid white;
 }
 
 .sessao1{
@@ -321,8 +342,13 @@ nav{
 }
 .sessao1 li{
 	color: black;
+	width: 80%;
 	font-size: 20px;;
 	font-weight: 700;
+}
+.sessao1 .lado1 li:hover{
+	font-size: 20px;
+	width: 80%;
 }
 
 .sessao2 .center h1{
@@ -346,20 +372,32 @@ nav{
 
 
 .rodape .redes{
+	padding: 0;
 	float: none;
 	width: 100%;
 }
 .redes a{
+	padding: 0;
 	width: 100%;
 	margin: auto;
 }
 .redes a li{
+	padding: 0;
 	width: 20%;
 	margin: auto;
 	margin-bottom: 15px;
 }
 }
-
+@media screen and (max-width:340px){
+	.sessao1{
+		height: 1100px;
+	}
+	.sessao2{
+		
+		margin-top: 200px;
+		margin-bottom: 30px;
+	}
+}
 
 
 
