@@ -7,24 +7,24 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="icon" href="imagem/icon.png">
 	<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<div class="logo"><h1>Thayrone<br> Paula</h1></div>
+	<header id="inicio">
+		<div class="logo"><a style="text-decoration: none;" href="#inicio"><h1>Thayrone<br> Paula</h1></div></a>
 		<nav>
 			<ul class="menu">
-				<li>Inicio</li>
-				<li>Sobre</li>
-				<li>Contato</li>
+				<a href="#inicio"><li>Inicio</li></a> 
+				<a href="#sobre"><li>Sobre</li></a> 
+				<a href="#contato"><li>Contato</li></a>
 			</ul>
 		</nav>
 	</header>
 
 	<main >
-		<section class="sessao1">
+		<section id="sobre" class="sessao1">
 			<h1>Sobre mim</h1>
 				<div class="lado1">
 					<ul>
@@ -37,30 +37,31 @@
 				<div class="perfil"> <img src="./imagem/perfil.png"></div>
 			</div class="clear">
 		</section>
-		<section class="sessao2">
+		<section id="contato" class="sessao2">
 			<div class="center">
 				<h1>Contato</h1>
-			<form method="GIT" action="">
-				<input type="text" name="texto" placeholder="Nome">	
-				<input type="email" name="email" placeholder="Email">
-				<textarea placeholder="Digite sua mensagem" name="msg"></textarea>
+			<form action="https://gmail.us7.list-manage.com/subscribe/post?u=59bddf9195e105f4ae215f62b&amp;id=589d528c33" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="text" name="FNAME" placeholder="Nome">	
+				<input type="email" name="EMAIL" placeholder="Email">
+				<textarea placeholder="Digite sua mensagem" name="MESSAGE"></textarea>
 				<button class="submit">Enviar</button>
-				
 			</form>
+			  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_59bddf9195e105f4ae215f62b_589d528c33" tabindex="-1" value=""></div>
 			</div>
 		</section>
 	</main>
-	<footer >
+	<footer>
 		<div class="rodape">
-		<div class="logo"><h1>Thayrone Paula</h1></div>
+		<div class="logo"><a style="text-decoration: none;" href="#inicio"><h1>Thayrone Paula</h1></div></a>
 		
 			<div class="redes">
 				<ul>
 					<a href="https://www.facebook.com/profile.php?id=100006495973788"><li id="facebook">Facebook</li></a>
-					<a href=""><li id="insta" >Instagram</li></a>
+					<a href="https://www.instagram.com/thayrone_paula/"><li id="insta" >Instagram</li></a>
 					<a href="mailto:flogao381@gmail.com"><li id="mail">E-mail</li></a>
 					<a href="https://github.com/ThayronePaula"><li id="git">GitHub</li></a>
-					<a href=""><li id="linkedin">LinkedIn</li></a>
+					<a href="https://www.linkedin.com/in/thayrone-paula-9563371a5/"><li id="linkedin">LinkedIn</li></a>
 				</ul>
 			</div>
 		</div>
